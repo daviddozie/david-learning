@@ -1,0 +1,50 @@
+p {
+    font-weight: 600;
+    color: green;
+}
+#box {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.title{
+    color: brown;
+    font-size: 24px;
+}
+.quote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+.header{
+    background-color: lightblue;
+}
+ 
+div .header {
+    background-color: teal; 
+    color: white;
+}
+
+div p:first-child {
+    color: black;
+    font-size: 24px;
+}
+
+div p:last-child{
+    color: orange;
+}
+
+p:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+p:nth-of-type(2) {
+    background-color: yellow;
+    color: black;
+}

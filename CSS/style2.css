@@ -1,0 +1,155 @@
+body {
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.pox {
+    font-size: 20px;
+}
+
+.fix:visited {
+    color: teal;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 200px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border: 3px solid lightblue;
+    border-radius: 3px;
+}
+
+.pox::first-letter {
+    color: #f00;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 400px) {
+    .fox {
+        background-color: grey;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .fox {
+        background-color: burlywood
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid green;
+}
+
+nav a[href*='/'] {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.parent div {
+    height: 100px;
+    width: 200px;
+    background-color: teal;
+    border: 5px solid orange;
+}
+
+.box-one{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-two {
+    color: rgba(255,0,0,0.1);
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul,
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    float: right;
+    padding: 5px;
+}
+
+section,
+footer {
+    padding: 20px 35px;
+}
+
+nav {
+    padding: 10px;
+    background-color: grey;
+    color: #fff;
+    position: relative;
+}
+
+nav a,
+footer a {
+    color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+.work-experience h3::first-letter {
+    font-size: 25px;
+}
+
+.work-experience p::first-line {
+    color: burlywood;
+}
+.work-experience {
+    background-color: rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: grey;
+}
+
+.education {
+    background-color: rgba(0,0,255,0.1);
+
+}
+
+@media screen and (min-width:600px) {
+    nav {
+        padding: 40px 35px;
+    }
+}
+
+nav li {
+    display: inline;
+    padding: 8px;
+    float: right;
+}

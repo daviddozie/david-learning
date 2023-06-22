@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>survey form</title>
+    </head>
+    <body>
+        <h1>Production Survey Form</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Survey Form</legend>
+                <label for="firstname">First Name</label> <br><br>
+                <input type="text" name="firstname" id="firstname"/><br>
+                <label for="lastname">Last Name</label> <br><br>
+                <input type="text" name="lastname" id="lastname"/><br>
+                <label for="address">Address</label> <br><br>
+                <input type="text" name="address" id="address"/><br>
+                <label for="male">Gender:</label><br>
+                <input type="radio" name="gender" value="Male" id="male">
+                <label for="male">Male</label><br><br>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label><br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address"/><br><br>
+                <!--the checkbox-->
+                <label>How would you like to describe our products?</label><br>
+                <input type="checkbox" name="description1" id="description1" value="description1"/>
+                <label for="description1">High Quality</label><br><br>
+                <input type="checkbox" name="description2" id="description2" value="description2"/>
+                <label for="description2">Standard</label><br><br>
+                <input type="checkbox" name="description3" id="description3" value="description3"/>
+                <label for="description3">Unique</label><br><br>
+                <input type="checkbox" name="description4" id="description4" value="description4"/>
+                <label for="description4">Low Quality</label><br><br>
+                <!--the password--> 
+                <label>Password:</label>
+                <input type="password" name="password"/><br><br>
+                <!--the browser to upload file-->
+                <label for="file">Upload File</label>
+                <input type="file" name="file" id="file"/><br><br>
+                <!--the select country-->
+                <label for="Country">Country:</label>
+                <select name="country" id="country">
+                    <option value="nigeria">Nigeria</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="zambia">Zambia</option>
+                    <option value="ghana" selected>Ghana</option>
+                    <option value="gambia">Gambia</option>
+                </select><br><br>
+                <label>Country with List:</label>
+                <input list="country-list" id="country1" name="country">
+                <!--the data list-->
+                <datalist id="country-list">
+                    <option value="Nigeria"/>
+                    <option value="Gambia"/>
+                    <option value="Ghana"/>
+                    <option value="Kenya"/>
+                    <option value="Zambia"/>
+                    <option value="South-Africa"/>
+                </datalist><br><br>
+                <!--the text area-->
+                <label>Write your comments and suggestions about our product</label><br>
+                <textarea name="comments" id="comments" cols="70" rows="10"></textarea>
+                <!--the submit button-->
+                <button type="submit">Submit</button><br><br>
+                <!--the button with action-->
+                <button onclick="alert('Hello, and welcome to my website')">Say Hello</button><br><br>
+                <!--the image button-->
+                <input type="image" name="image-button" src="image/image.jpg" width="200" heigth="50"/>
+            </fieldset>    
+        </form>
+    </body>
+</html>            

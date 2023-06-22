@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 50px 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-list-item {
+    padding-right: 50px;
+}
+
+.navbar-list-link {
+    color: #000000;
+}
+
+.navbar-list-btn {
+    border-radius: 5px;
+    border: 1px solid #AD4C4C;
+    color: #AD4C4C;
+    font-weight: 500px;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.food {
+    color: #000000;
+    font-weight: bold;
+}
+
+.bag {
+    color: #AD4C4C;
+}
+
+.type {
+    display: flex;
+    margin-top: 92px;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.breadcrumb-item {
+    font-weight: 400;
+}
+
+.text-gray {
+    color: #C9C9C9;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.img-kfc-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.img-kfc {
+    display: flex;
+}
+
+.img-kfc-text {
+    padding-left: 21px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.img-kfc-view {
+    font-weight: 500px;
+    font-size: 16px;
+    color: #AD4C4C;
+}
+
+.img-cake-wrapper {
+    margin-top: 13px;
+    display: flex;
+}
+
+.img-cake {
+    padding-right: 30px;
+}
+
+.img-cake-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #4E4D4D;
+}
+
+.cost {
+    padding-left: 62px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5EA304;
+}
+
+.text-btn {
+    border-radius: 3px;
+    border: 1px solid #AD4C4C;
+    padding: 8px 23px;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #AD4C4C;
+    max-width: 50%;
+}
+
+.line {
+    border-top: 1px solid #E6E6E6;
+    margin-top: 61px;
+}
+
+.logo-text {
+    padding-left: 19px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #000000;
+}

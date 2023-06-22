@@ -1,0 +1,190 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    padding: 50px 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-list-item {
+    padding-right: 50px;
+}
+
+.navbar-list-link {
+    color: #000000;
+}
+
+.navbar-list-btn {
+    border-radius: 5px;
+    border: 1px solid #AD4C4C;
+    color: #AD4C4C;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.head-item {
+    margin-top: 60px;
+    text-align: center;
+    color: #4E4D4D;
+}
+
+.head-item-text {
+    text-align: center;
+    color: #696969;
+}
+
+.location {
+    padding-top: 400px;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.box {
+    margin-top: 20px;
+    width: 1140px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+}
+
+.box:hover{
+    color: #AD4C4C;
+}
+
+.bag {
+    color: #AD4C4C;
+}
+
+.food {
+    color: #000000;
+    font-weight: bold;
+}
+
+.pick-up {
+    padding-top: 30px;
+}
+
+.fast-food-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    padding: 24px 30px;
+    margin-right: 20px;
+    /* box-shadow: 0px 0px 3px 1.5px rgba(0, 0, 0, 0.1);     */
+}
+
+.fast-food-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fast-food-item-text {
+    font-weight: 500px;
+    font-size: 18px;
+    color: #AD4C4C;
+}
+
+.fast-food-item-downtext {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #696969;
+}
+
+.head-item-process {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.item-process-wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-process {
+    max-width: 25%;
+}
+
+.item-process-text {
+    font-weight: 500px;
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+}
+
+.item-process-downtext {
+    font-weight: 400px;
+    font-size: 20px;
+    color: #A5A5A5;
+    text-align: center;
+}
+
+.footer {
+    padding: 50px 100px;
+}
+
+.footer-contact {
+    text-align: center;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.social-media {
+    margin-top: 32.5px;
+    text-align: center;
+}
+
+.twitter-logo {
+    margin-right: 30.58px;
+}
+
+.facebook-logo {
+    margin-left: 30.58px;
+}
+
+.terms-copy {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms {
+    padding: 0px;
+    display: flex;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #696969;
+}
+
+.copy {
+    font-weight: 400px;
+    font-size: 18px;
+    color: #696969;
+}
