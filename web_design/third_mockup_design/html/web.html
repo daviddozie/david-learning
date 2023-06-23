@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;
+        0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/webstyle.css">
+    </head>
+    <body>
+        <main class="main-content">
+            <nav class="navbar">
+                <a class="food" href="/">Food<span class="bag">Bag</span></a>
+                <ul class="navbar-list">
+                    <li class="navbar-list-item"><a class="navbar-list-cart" href="#">Cart</a></li>
+                    <li class="navbar-list-item"><a class="navbar-list-link" href="#">Login</a></li>
+                    <li><a class="navbar-list-btn" href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+            <section>
+                <div class="type">
+                    <p>
+                        <span class="breadcrumb-item text-gray">Home</span> 
+                        <span class="breadcrumb-item text-gray">></span> 
+                        <span class="breadcrumb-item text-black">Cart</span>
+                    </p>
+                </div>
+            </section>
+            <h2>Cart</h2>
+            <section>
+                <div class="first-bar">
+                    <div class="first-bar-item">
+                        <p class="x">X</p>
+                        <p class="first-bar-item-img">
+                            <img src="../images/kfc_cakes.png" alt="kfc_cakes.png" width="133.33px" height="75px">
+                        </p>
+                        <p class="first-bar-item-text">KFC-King Bucket
+                        <br><button class="sign">+</button>
+                        <span class="first-bar-item-sign">2</span>
+                        <button class="sign-">-</button></p>
+                    </div>
+                    <p class="first-bar-item-cost">#10,000</p>
+                </div>
+                <div class="line"></div>
+            </section>
+            <section>
+                <div class="first-bar">
+                    <div class="first-bar-item">
+                        <p class="x">X</p>
+                        <p class="first-bar-item-img">
+                            <img src="../images/drink_chiken_rice.png" alt="drink_chiken_rice.png" width="133.33px" height="75px">
+                        </p>
+                        <p class="first-bar-item-text">Refuel Max
+                        <br><button class="sign">+</button>
+                        <span class="first-bar-item-sign">1</span>
+                        <button class="sign-">-</button></p>
+                    </div>
+                    <p class="first-bar-item-cost">#1,200</p>
+                </div>
+                <div class="line"></div>
+            </section>
+            <section>
+                <div class="first-bar">
+                    <div class="first-bar-item">
+                        <p class="x">X</p>
+                        <p class="first-bar-item-img">
+                            <img src="../images/table_souce_chiken.png" alt="table_souce_chiken.png" width="133.33px" height="75px">
+                        </p>
+                        <p class="first-bar-item-text">Refuel Max
+                        <br><button class="sign">+</button>
+                        <span class="first-bar-item-sign">1</span>
+                        <button class="sign-">-</button></p>
+                    </div>
+                    <p class="first-bar-item-cost">#1,200</p>
+                </div>
+                <div class="line"></div>
+            </section>
+            <section>
+                <div class="mob-container">
+                    <div class="mob-item">
+                        <img src="../images/bike.png" alt="bike.png" width="75px" height="75px">
+                        <p class="mob-item-text">Delivery fee</p>
+                    </div>
+                    <p class="mob-cost">#1,200</p>
+                </div>
+                <div class="mob-line"></div>
+            </section>
+            <section>
+                <div class="total-wrapper">
+                    <p class="total-item">Total</p>
+                    <p class="total-cost">#13,600</p>
+                </div>
+            </section>
+            <section>
+                <button class="checkout-btn" onclick="alert('Checkout')">Checkout</button>
+            </section>
+        </main>
+    </body>
+</html>
