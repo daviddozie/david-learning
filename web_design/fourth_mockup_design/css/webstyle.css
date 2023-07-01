@@ -31,15 +31,11 @@ a:link {
 }
 
 .navbar-list-item {
-    padding-right: 50px;
-}
-
-.navbar-list-cart {
-    color: #AD4C4C;
+padding-right: 50px;
 }
 
 .navbar-list-link {
-    color: #C9C9C9;
+    color: #696969;
 }
 
 .navbar-list-btn {
@@ -129,6 +125,7 @@ a:link {
     font-weight: 500px;
     font-size: 20px;
 }
+
 .number-bar-box {
     border-right: 0px;
     padding:10px 10px ;
@@ -153,17 +150,21 @@ a:link {
     color: #696969;
     font-weight: bold;
 }
+
 .line {
     border: 1px solid #C9C9C9;
     margin-top: 50px;
 }
+
 .payment-container {
     margin-top: 50px;
 }
+
 .payment-text {
     font-weight: 500px;
     font-size: 20px;
 }
+
 .payment-box {
     padding: 10px 10px;
     border: 1px solid #C4C4C4;
@@ -174,7 +175,11 @@ a:link {
     margin-top: 10px;
 }
 
-.card-wrapper {
+.card-number {
+    margin-top: 50px;
+}
+
+.card-name {
     margin-top: 50px;
 }
 
@@ -193,17 +198,44 @@ a:link {
     margin-top: 10px;
 }
 
-.expiry-cvc {
+.expiry-cvc-wrapper {
     display: flex;
 }
 
-.cvc-wrapper {
+.expiry-text {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.expiry-box {
+    padding: 10px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    color: #696969;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+.cvc-text {
+    font-weight: 500px;
+    font-size: 20px;
+}
+.cvc-box {
+    padding: 10px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    color: #696969;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+.cvc {
     margin-top: 50px;
     padding-left: 30px;
     width: 100%;
 }
 
-.expiry-wrapper {
+.expiry-date {
     margin-top: 50px;
     padding-right: 20px;
     width: 100%;

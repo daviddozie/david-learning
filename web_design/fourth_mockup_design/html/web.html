@@ -70,40 +70,40 @@
             </section>
             <section>
                 <div class="payment-container">
-                    <label class="payment-text" for="phone number"><strong>Payment method</strong></label>
+                    <label class="payment-text" for="paymentmethod"><strong>Payment method</strong></label>
                     <div>
-                        <select class="payment-box" name="phone number" id=" phone number">
+                        <select class="payment-box" name="paymentmethod" id="paymentmethod">
                             <option value="card">Card</option>
                         </select>
                     </div>
                 </div>
             </section>
             <section>
-                <div class="card-wrapper">
+                <div class="card-number">
                     <label class="card-text" for="cardnumber"><strong>Card number</strong></label><br>
                     <input class="card-box" type="text" name="cardnumber" id="cardnumber" placeholder="4657 3890 1073 1297"/> 
                 </div>
             </section>
             <section>
-                <div class="card-wrapper">
-                    <label class="card-text" for="cardnumber"><strong>Card name</strong></label><br>
-                    <input class="card-box" type="text" name="cardnumber" id="cardnumber" placeholder="David Dozie"/> 
+                <div class="card-name">
+                    <label class="card-text" for="cardname"><strong>Card name</strong></label><br>
+                    <input class="card-box" type="text" name="cardname" id="cardname" placeholder="David Dozie"/> 
                 </div>
             </section>
             <section>
-                <div class="expiry-cvc">
-                    <div class="expiry-wrapper">
-                        <label class="card-text" for="cardnumber"><strong>Expiry date</strong></label><br>
-                        <input class="card-box" type="text" name="cardnumber" id="cardnumber" placeholder="28/8/2025"/>
+                <div class="expiry-cvc-wrapper">
+                    <div class="expiry-date">
+                        <label class="expiry-text" for="expirydate"><strong>Expiry date</strong></label><br>
+                        <input class="expiry-box" type="text" name="expirydate" id="expirydate" placeholder="28/8/2025"/>
                     </div>
-                    <div class="cvc-wrapper">
-                        <label class="card-text" for="cardnumber"><strong>CVC</strong></label><br>
-                        <input class="card-box" type="text" name="cardnumber" id="cardnumber" placeholder="756"/> 
+                    <div class="cvc">
+                        <label class="cvc-text" for="cvc"><strong>CVC</strong></label><br>
+                        <input class="cvc-box" type="text" name="cvc" id="cvc" placeholder="756"/> 
                     </div>
                 </div>
             </section>
             <section>
-                <button class="pay-btn" onclick="alert('pay')">Pay</button>
+                <button class="pay-btn" onclick="alert('Payment Successful')">Pay</button>
             </section>
         </main>
     </body>
