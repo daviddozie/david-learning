@@ -1,0 +1,254 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 50px 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-list-item {
+padding-right: 50px;
+}
+
+.navbar-list-link {
+    color: #696969;
+}
+
+.navbar-list-btn {
+    border-radius: 5px;
+    border: 1px solid #AD4C4C;
+    color: #AD4C4C;
+    font-weight: 500px;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.food {
+    color: #000000;
+    font-weight: bold;
+}
+
+.bag {
+    color: #AD4C4C;
+}
+
+.type {
+    display: flex;
+    margin-top: 92px;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.breadcrumb-item {
+    font-weight: 400px;
+}
+
+.text-gray {
+    color: #C9C9C9;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.verification {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.verification-text {
+    color: #AD4C4C;
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.delivery {
+    margin-top: 70px;
+    font-weight: 500px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.delivery-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-text {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #C9C9C9;
+    margin-top: 8px;
+}
+
+.delivery-btn {
+    margin-top: 80px;
+}
+
+.number-container {
+    margin-top: 30px;
+}
+
+.number-wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+
+.number-bar {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.number-bar-box {
+    border-right: 0px;
+    padding:10px 10px ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: #C4C4C4;
+    color: #696969;
+    font-weight: bold;
+}  
+
+.text-number-box-container {
+    width: 100%;
+}
+
+.text-number-box {
+    padding: 10px 10px 12px;
+    border: 1px solid #C4C4C4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0px;
+    width: 100%;
+    color: #696969;
+    font-weight: bold;
+}
+
+.line {
+    border: 1px solid #C9C9C9;
+    margin-top: 50px;
+}
+
+.payment-container {
+    margin-top: 50px;
+}
+
+.payment-text {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.payment-box {
+    padding: 10px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    color: #696969;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-number {
+    margin-top: 50px;
+}
+
+.card-name {
+    margin-top: 50px;
+}
+
+.card-text {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.card-box {
+    padding: 10px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    color: #696969;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.expiry-cvc-wrapper {
+    display: flex;
+}
+
+.expiry-text {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.expiry-box {
+    padding: 10px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    color: #696969;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+.cvc-text {
+    font-weight: 500px;
+    font-size: 20px;
+}
+.cvc-box {
+    padding: 10px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    color: #696969;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+.cvc {
+    margin-top: 50px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.expiry-date {
+    margin-top: 50px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.pay-btn {
+    border: 1px solid #AD4C4C;
+    border-radius: 5px;
+    background-color: #AD4C4C;
+    color: #ffffff;
+    font-weight: bold;
+    width: 700px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.flex-container {
+    background-color: blueviolet;
+    display: flex;
+}
+
+@media only screen and (max-width: 300px) {
+    /* .flex-container {
+        flex-direction: column;
+    } */
+}
