@@ -12,8 +12,11 @@ body {
 }
 .img-text-container {
     text-align: center;
-    margin-top: 400px;
-    margin-bottom: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 .text {
     font-weight: bold;
@@ -24,6 +27,4 @@ body {
     font-size: 20px;
     font-weight: 400px;
     color: #696969;
-    max-width: 20%;
-    margin-left: 540px;
 }
