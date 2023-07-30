@@ -133,13 +133,13 @@ a:link {
 }
 
 .text-btn {
-    border-radius: 3px;
-    border: 1px solid #AD4C4C;
-    padding: 8px 23px;
-    font-weight: 600px;
-    font-size: 16px;
-    color: #AD4C4C;
-    max-width: 130px;
+   border-radius: 3px;
+   padding: 10px 30px;
+   font-size: 16px;
+   font-weight: 500;
+   color: #AD4C4C;
+   background-color: #ffffff;
+   border: 1px solid #AD4C4C;
 }
 
 .text-btn:hover {
