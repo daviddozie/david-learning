@@ -34,12 +34,26 @@ a:link {
     padding-right: 50px;
 }
 
+.navbar-list-cart:hover {
+    color: #AD4C4C;
+    font-size: large;
+}
+
 .navbar-list-cart {
     color: #AD4C4C;
 }
 
+.navbar-list-link:hover {
+    color: #696969;
+    font-size: large;
+}
+
 .navbar-list-link {
-    color: #000000;
+    color: #696969;
+}
+
+.navbar-list-btn:hover {
+    border: 2px solid #AD4C4C;
 }
 
 .navbar-list-btn {
@@ -81,10 +95,12 @@ a:link {
 .first-bar {
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .first-bar-item {
     display: flex;
+    flex-wrap: wrap;
 }
 .x {
     margin-top: 40px;
@@ -100,6 +116,11 @@ a:link {
     font-weight: bold;
     color: #4E4D4D;
 }
+
+button:hover {
+    border: 2px solid #AD4C4C;
+}
+
 button {
     margin-top: 15px;
     background-color: #ffffff;
@@ -121,7 +142,7 @@ button {
     color: #AD4C4C;
 }
 .first-bar-item-cost {
-    margin-top: 50px;
+    margin-top: 60px;
     color: #4E4D4D;
     font-weight: bold;
 }
@@ -130,6 +151,7 @@ button {
 }
 .mob-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 50px;
     padding-left: 50px;
@@ -166,11 +188,42 @@ button {
     color: #000000;
     font-size: 35px;
 }
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.checkout-btn:hover {
+    border: 2px solid #000000;
+}
 .checkout-btn {
     color: #ffffff;
     font-weight: bold;
     background-color: #AD4C4C;
     width: 700px;
     height: 40px;
-    margin-left: 200px;
+}
+@media only screen and (max-width: 600px) {
+    .main-content {
+        padding: 10px 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .main-content {
+        padding: 20px 40px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .main-content {
+        padding: 30px 60px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .main-content {
+        padding: 40px 80px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .main-content {
+        padding: 50px 100px;
+    }
 }

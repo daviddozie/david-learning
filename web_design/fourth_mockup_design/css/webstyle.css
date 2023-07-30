@@ -34,8 +34,18 @@ a:link {
 padding-right: 50px;
 }
 
+.navbar-list-link:hover {
+    color: #696969;
+    font-size: large;
+}
+    
+
 .navbar-list-link {
     color: #696969;
+}
+
+.navbar-list-btn:hover {
+    border: 2px solid #AD4C4C;
 }
 
 .navbar-list-btn {
@@ -135,6 +145,12 @@ padding-right: 50px;
     color: #696969;
     font-weight: bold;
 }  
+.number-bar-box:hover {
+    border: 2px solid #AD4C4C;
+}
+.text-number-box:hover {
+    border: 2px solid #AD4C4C;
+}
 
 .text-number-box-container {
     width: 100%;
@@ -174,7 +190,9 @@ padding-right: 50px;
     width: 100%;
     margin-top: 10px;
 }
-
+.payment-box:hover {
+    border: 2px solid #AD4C4C;
+}
 .card-number {
     margin-top: 50px;
 }
@@ -187,7 +205,9 @@ padding-right: 50px;
     font-weight: 500px;
     font-size: 20px;
 }
-
+.card-box:hover {
+    border: 2px solid #AD4C4C;
+}
 .card-box {
     padding: 10px 10px;
     border: 1px solid #C4C4C4;
@@ -206,6 +226,9 @@ padding-right: 50px;
     font-weight: 500px;
     font-size: 20px;
 }
+.expiry-box:hover {
+    border: 2px solid #AD4C4C;
+}
 
 .expiry-box {
     padding: 10px 10px;
@@ -220,6 +243,11 @@ padding-right: 50px;
     font-weight: 500px;
     font-size: 20px;
 }
+
+.cvc-box:hover {
+    border: 2px solid #AD4C4C;
+}
+
 .cvc-box {
     padding: 10px 10px;
     border: 1px solid #C4C4C4;
@@ -241,6 +269,14 @@ padding-right: 50px;
     width: 100%;
 }
 
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.pay-btn:hover {
+    border: 2px solid #000000;
+}
 .pay-btn {
     border: 1px solid #AD4C4C;
     border-radius: 5px;
@@ -249,6 +285,29 @@ padding-right: 50px;
     font-weight: bold;
     width: 700px;
     height: 40px;
-    margin-left: 200px;
-    margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .main-content {
+        padding: 10px 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .main-content {
+        padding: 20px 40px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .main-content {
+        padding: 30px 60px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .main-content {
+        padding: 40px 80px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .main-content {
+        padding: 50px 100px;
+    }
 }
