@@ -177,8 +177,23 @@ a:link {
     margin-right: 30px;
 }
 
+.twitter-logo:hover {
+    border: 2px solid #AD4C4C;
+    border-radius: 5px;
+}
+
 .facebook-logo {
     margin-left: 30px;
+}
+
+.facebook-logo:hover {
+    border: 2px solid #AD4C4C;
+    border-radius: 5px;
+}
+
+.youtube-logo:hover {
+    border: 2px solid #AD4C4C;
+    border-radius: 5px;
 }
 
 .terms-copy {
