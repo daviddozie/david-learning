@@ -1,0 +1,95 @@
+body {
+    font-style: normal;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+    
+.form-container {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    padding: 80px 100px;
+}
+
+.error-block {
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+.item {
+    width: 100%;
+}
+
+.text {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.space {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.field:hover {
+    box-shadow: 3px 3px 3px 3px #C4C4C4;
+}
+
+.field:visited {
+    border: 2px solid #C4C4C4;
+}
+
+.field {
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: gray;
+    width: 100%;
+}
+
+textarea:hover {
+    box-shadow: 3px 3px 3px 3px #C4C4C4;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 3px 3px lightgreen;
+}
+
+.btn {
+    border: 1px solid limegreen;
+    background-color: limegreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .form-item {
+        flex-direction: column;
+    }
+    .btn-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+}

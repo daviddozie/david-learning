@@ -10,7 +10,7 @@ while ( n < 115) {
     } else {
         document.write('nothing')
     }
-   // str = str + n;
+    document.write(n)
     n++
 }
 console.log(str);
