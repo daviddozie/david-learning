@@ -35,11 +35,6 @@ body {
     color: #696969;
 }
 
-.navbar-list-link:hover {
-    color: #696969;
-    font-size: large;
-}
-
 .navbar-list {
     list-style-type: none;
     padding: 0;
@@ -48,7 +43,7 @@ body {
 }
 
 .navbar-list-btn:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #f3f2f2;
 }
 
 .navbar-list-btn {
@@ -76,9 +71,10 @@ a:link {
     padding: 15px 20px;
     border-radius: 5px;
     border: 1px solid #C4C4C4;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400px;
-    color: #4E4D4D;
+    color: #696969;
+    font-weight: bold;
 }
 
 .head-item {
@@ -95,7 +91,7 @@ a:link {
 }
 
 .box:hover{
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px  #f3f2f2;
 }
 
 .line {
@@ -129,11 +125,28 @@ a:link {
     width: 300px;
 }
 
+.fast-food-item:hover {
+    box-shadow: 3px 3px 3px 3px #f3f2f2;
+}
+
+.gray-fast-food-item-text {
+    font-weight: 500px;
+    font-size: 20px;
+    color: #A5A5A5;
+}
+
 .fast-food-item-text {
     font-weight: 500px;
     font-size: 20px;
     color: #AD4C4C;
 }
+
+.gray-fast-food-item-downtext {
+    font-weight: 400px;
+    font-size: 20px;
+    color: #A5A5A5;
+}
+
 
 .fast-food-item-downtext {
     font-weight: 400px;

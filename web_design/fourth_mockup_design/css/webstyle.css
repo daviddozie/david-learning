@@ -34,18 +34,12 @@ a:link {
 padding-right: 50px;
 }
 
-.navbar-list-link:hover {
-    color: #696969;
-    font-size: large;
-}
-    
-
 .navbar-list-link {
     color: #696969;
 }
 
 .navbar-list-btn:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .navbar-list-btn {
@@ -122,6 +116,12 @@ padding-right: 50px;
     margin-top: 80px;
 }
 
+.error-block {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .number-container {
     margin-top: 30px;
 }
@@ -137,19 +137,20 @@ padding-right: 50px;
 }
 
 .number-bar-box {
-    border-right: 0px;
     padding:10px 10px ;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    border-right: 0px;
     color: #696969;
     font-weight: bold;
 }  
 .number-bar-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
+
 .text-number-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .text-number-box-container {
@@ -157,7 +158,8 @@ padding-right: 50px;
 }
 
 .text-number-box {
-    padding: 10px 10px 12px;
+    padding-bottom: 12px;
+    padding-top: 10px;
     border: 1px solid #C4C4C4;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -191,7 +193,7 @@ padding-right: 50px;
     margin-top: 10px;
 }
 .payment-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 .card-number {
     margin-top: 50px;
@@ -206,7 +208,7 @@ padding-right: 50px;
     font-size: 20px;
 }
 .card-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 .card-box {
     padding: 10px 10px;
@@ -227,7 +229,7 @@ padding-right: 50px;
     font-size: 20px;
 }
 .expiry-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .expiry-box {
@@ -245,7 +247,7 @@ padding-right: 50px;
 }
 
 .cvc-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .cvc-box {
@@ -275,7 +277,7 @@ padding-right: 50px;
     padding-top: 50px;
 }
 .pay-btn:hover {
-    border: 2px solid #000000;
+    box-shadow: 3px 3px 3px 3px #a78181;
 }
 .pay-btn {
     border: 1px solid #AD4C4C;
