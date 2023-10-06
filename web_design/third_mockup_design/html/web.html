@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web Page</title>
+        <title>Cart</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;
         0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="../css/webstyle.css">
     </head>
     <body>
@@ -15,7 +16,7 @@
             <nav class="navbar">
                 <a class="food" href="../../first_mockup_design/html/web.html">Food<span class="bag">Bag</span></a>
                 <ul class="navbar-list">
-                    <li class="navbar-list-item"><a class="navbar-list-cart" href="#">Cart</a></li>
+                    <li class="navbar-list-item"><a class="navbar-list-cart" href="../../third_mockup_design/html/web.html">Cart</a></li>
                     <li class="navbar-list-item"><a class="navbar-list-link" href="#">Login</a></li>
                     <li><a class="navbar-list-btn" href="../../sign_up_design/web.html">Sign Up</a></li>
                 </ul>
@@ -38,11 +39,14 @@
                             <img src="../images/kfc_cakes.png" alt="kfc_cakes.png" width="133.33px" height="75px">
                         </p>
                         <p class="first-bar-item-text">KFC-King Bucket
-                        <br><button class="sign" type="button">+</button>
-                        <span class="first-bar-item-sign">2</span>
-                        <button class="sign-" type="button">-</button></p>
+                        <br><button  class="sign addbtn1" type="button">+</button>
+                        <span  class="first-bar-item-sign numbercount1">1</span>
+                        <button class="sign- minusbtn1" type="button">-</button></p> 
                     </div>
-                    <p class="first-bar-item-cost">#10,000</p>
+                    <div class="cost5000">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span id="itemcost1" class="first-bar-item-cost">5,000</span>
+                    </div>
                 </div>
                 <div class="line"></div>
             </section>
@@ -54,11 +58,14 @@
                             <img src="../images/drink_chiken_rice.png" alt="drink_chiken_rice.png" width="133.33px" height="75px">
                         </p>
                         <p class="first-bar-item-text">Refuel Max
-                        <br><button class="sign" type="button">+</button>
-                        <span class="first-bar-item-sign">1</span>
-                        <button class="sign-" type="button">-</button></p>
+                        <br><button class="sign addbtn2" type="button">+</button>
+                        <span class="first-bar-item-sign numbercount2">1</span>
+                        <button class="sign- minusbtn2" type="button">-</button></p>
                     </div>
-                    <p class="first-bar-item-cost">#1,200</p>
+                    <div class="cost5000">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span id="itemcost2" class="first-bar-item-cost">1,200</span>
+                    </div>
                 </div>
                 <div class="line"></div>
             </section>
@@ -70,11 +77,14 @@
                             <img src="../images/table_souce_chiken.png" alt="table_souce_chiken.png" width="133.33px" height="75px">
                         </p>
                         <p class="first-bar-item-text">Refuel Max
-                        <br><button class="sign" type="button">+</button>
-                        <span class="first-bar-item-sign">1</span>
-                        <button class="sign-" type="button">-</button></p>
+                        <br><button class="sign addbtn3" type="button">+</button>
+                        <span class="first-bar-item-sign numbercount3">1</span>
+                        <button class="sign- minusbtn3" type="button">-</button></p>
                     </div>
-                    <p class="first-bar-item-cost">#1,200</p>
+                    <div class="cost5000">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span id="itemcost3" class="first-bar-item-cost">1,200</span>
+                    </div>
                 </div>
                 <div class="line"></div>
             </section>
@@ -84,21 +94,28 @@
                         <img src="../images/bike.png" alt="bike.png" width="75px" height="75px">
                         <p class="mob-item-text">Delivery fee</p>
                     </div>
-                    <p class="mob-cost">#1,200</p>
+                    <div class="mob-icon-cost">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span class="mob-cost">1,200</span>
+                    </div>
                 </div>
                 <div class="mob-line"></div>
             </section>
             <section>
                 <div class="total-wrapper">
                     <p class="total-item">Total</p>
-                    <p class="total-cost">#13,600</p>
+                    <div class="total-price-wrapper">
+                        <i class="bi bi-currency-dollar icon-currency"></i>
+                        <p id="sum" class="total-cost"></p>
+                    </div>
                 </div>
             </section>
             <section>
                 <div class="btn-wrapper">
-                    <button class="checkout-btn" onclick="alert('Checkout')">Checkout</button>
+                    <button class="checkout-btn">Checkout</button>
                 </div>
             </section>
         </main>
+        <script src="../../third_mockup_design/javascript/web.js"></script>
     </body>
 </html>

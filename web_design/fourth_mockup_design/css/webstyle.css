@@ -39,7 +39,7 @@ padding-right: 50px;
 }
 
 .navbar-list-btn:hover {
-    box-shadow: 3px 3px 3px 3px #eeecec;
+    background-color: #f0f0f0;
 }
 
 .navbar-list-btn {
@@ -49,6 +49,7 @@ padding-right: 50px;
     font-weight: 500px;
     font-size: 16px;
     padding: 8px 15px;
+    transition: all ease-in-out 0.5s;
 }
 
 .food {
@@ -118,8 +119,9 @@ padding-right: 50px;
 
 .error-block {
     color: red;
-    font-size: 12px;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .number-container {
@@ -137,11 +139,10 @@ padding-right: 50px;
 }
 
 .number-bar-box {
-    padding:10px 10px ;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: 1px solid #C4C4C4;
-    border-right: 0px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: none;
     color: #696969;
     font-weight: bold;
 }  
@@ -155,15 +156,13 @@ padding-right: 50px;
 
 .text-number-box-container {
     width: 100%;
+    position: relative;
 }
 
 .text-number-box {
-    padding-bottom: 12px;
-    padding-top: 10px;
+    padding: 11px 90px;
     border: 1px solid #C4C4C4;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-left: 0px;
+    border-radius: 5px;
     width: 100%;
     color: #696969;
     font-weight: bold;
@@ -277,7 +276,9 @@ padding-right: 50px;
     padding-top: 50px;
 }
 .pay-btn:hover {
-    box-shadow: 3px 3px 3px 3px #a78181;
+    background-color: #962d2d;
+    box-shadow: 3px 3px 3px 3px #dfdede;
+    transform: scale(1.01);
 }
 .pay-btn {
     border: 1px solid #AD4C4C;
@@ -287,6 +288,8 @@ padding-right: 50px;
     font-weight: bold;
     width: 700px;
     height: 40px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
 }
 @media only screen and (max-width: 600px) {
     .main-content {
