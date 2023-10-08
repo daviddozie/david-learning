@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web Page</title>
+        <title>Verification</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;
@@ -17,7 +17,7 @@
                 <ul class="navbar-list">
                     <li class="navbar-list-item"><a class="navbar-list-link" href="#">Cart</a></li>
                     <li class="navbar-list-item"><a class="navbar-list-link" href="#">Login</a></li>
-                    <li><a class="navbar-list-btn" href="#">Sign Up</a></li>
+                    <li><a class="navbar-list-btn" href="../../sign_up_design/web.html">Sign Up</a></li>
                 </ul>
             </nav>
             <section>
@@ -45,68 +45,82 @@
                     </div>
                 </div>
             </section>
-            <section class="number-container">
-                <label class="number-bar" for="phone_number"><strong>Phone number</strong></label>
-                <div class="number-wrapper">
-                    <select class="number-bar-box" name="phone_number" id=" phone_number">
-                        <option value="=+234">+234</option>
-                        <option value="+333">+333</option>
-                        <option value="+1">+1</option>
-                        <option value="+44">+44</option>
-                        <option value="+52">+52</option>
-                        <option value="+91">+91</option>
-                        <option value="+86">+86</option>
-                        <option value="+7">+7</option>
-                        <option value="+93">+93</option>
-                        <option value="+213">+213</option>
-                        <option value="+1684">+1 684</option>
-                        <option value="+1264">+1 264</option>
-                    </select>
-                    <div class="text-number-box-container">
-                        <input class="text-number-box" type="text" name="number" id="number" placeholder="7015263683"/> 
+            <form id="validateForm" method="post">
+                <section class="number-container">
+                    <label class="number-bar" for="phone_number"><strong>Phone number</strong></label>
+                    <div class="number-wrapper">
+                        <div class="text-number-box-container">
+                            <select class="number-bar-box" name="phone_number" id="phoneNumber">
+                                <div class="option-wrapper">
+                                    <option value="=+234">+234</option>
+                                    <option value="+333">+333</option>
+                                    <option value="+1">+1</option>
+                                    <option value="+44">+44</option>
+                                    <option value="+52">+52</option>
+                                    <option value="+91">+91</option>
+                                    <option value="+86">+86</option>
+                                    <option value="+7">+7</option>
+                                    <option value="+93">+93</option>
+                                    <option value="+213">+213</option>
+                                    <option value="+1684">+1 684</option>
+                                    <option value="+1264">+1 264</option>
+                                </div>
+                            </select>
+                            <input class="text-number-box" type="text" name="number" id="number" placeholder="Enter phone number"/>
+                            <span class="error-block"></span>
+                        </div>
                     </div>
-                </div>
-                <div class="line"></div>
-            </section>
-            <section>
-                <div class="payment-container">
-                    <label class="payment-text" for="payment_method"><strong>Payment method</strong></label>
-                    <div>
-                        <select class="payment-box" name="payment_method" id="payment_method">
-                            <option value="card">Card</option>
-                        </select>
+                </section>
+                <section>
+                    <div class="payment-container">
+                        <label class="payment-text" for="payment_method"><strong>Payment method</strong></label>
+                        <div>
+                            <select class="payment-box" name="payment_method" id="paymentMethod">
+                                <option value="">Select payment method</option>
+                                <option value="cash">Cash</option>
+                                <option value="credit-card">Credit Card</option>
+                                <option value="debit-card">Debit Card</option>
+                                <option value="mobile-payment">Mobile Payment</option>
+                                <option value="check">Check</option>
+                                <option value="bank-transfer">Bank Transfer</option>
+                            </select>
+                            <span class="error-block"></span>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="card-number">
-                    <label class="card-text" for="card_number"><strong>Card number</strong></label><br>
-                    <input class="card-box" type="text" name="card_number" id="card_number" placeholder="4657 3890 1073 1297"/> 
-                </div>
-            </section>
-            <section>
-                <div class="card-name">
-                    <label class="card-text" for="card_name"><strong>Card name</strong></label><br>
-                    <input class="card-box" type="text" name="card_name" id="card_name" placeholder="David Dozie"/> 
-                </div>
-            </section>
-            <section>
-                <div class="expiry-cvc-wrapper">
-                    <div class="expiry-date">
-                        <label class="expiry-text" for="expiry_date"><strong>Expiry date</strong></label><br>
-                        <input class="expiry-box" type="text" name="expiry_date" id="expiry_date" placeholder="28/8/2025"/>
+                </section>
+                <section>
+                    <div class="card-number">
+                        <label class="card-text" for="card_number"><strong>Card number</strong></label><br>
+                        <input class="card-box" type="text" name="card_number" id="cardNumber" placeholder="Enter card number"/>
+                        <span class="error-block"></span> 
                     </div>
-                    <div class="cvc">
-                        <label class="cvc-text" for="cvc"><strong>CVC</strong></label><br>
-                        <input class="cvc-box" type="text" name="cvc" id="cvc" placeholder="756"/> 
+                </section>
+                <section>
+                    <div class="card-name">
+                        <label class="card-text" for="card_name"><strong>Card name</strong></label><br>
+                        <input class="card-box" type="text" name="card_name" id="cardName" placeholder="Enter card name"/>
+                        <span class="error-block"></span> 
                     </div>
-                </div>
-            </section>
-            <section>
+                </section>
+                <section>
+                    <div class="expiry-cvc-wrapper">
+                        <div class="expiry-date">
+                            <label class="expiry-text" for="expiry_date"><strong>Expiry date</strong></label><br>
+                            <input class="expiry-box" type="date" name="expiry_date" id="expiryDate" placeholder=""/>
+                            <span class="error-block"></span>
+                        </div>
+                        <div class="cvc">
+                            <label class="cvc-text" for="cvc"><strong>CVC</strong></label><br>
+                            <input class="cvc-box" type="text" name="cvc" id="cvc" placeholder="Enter card verification code"/> 
+                            <span class="error-block"></span>
+                        </div>
+                    </div>
+                </section>
                 <div class="btn-wrapper">
-                    <button class="pay-btn" onclick="alert('Payment Successful')">Pay</button>
+                    <button class="pay-btn" type="submit">pay</button>
                 </div>
-            </section>
+            </form>
         </main>
+        <script src="../javascript/web.js"></script>
     </body>
 </html>

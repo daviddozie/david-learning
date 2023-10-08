@@ -41,27 +41,19 @@ a:link {
     font-weight: 500;
     font-size: 16px;
     padding: 8px 15px;
+    transition: all ease-in-out 0.5s;
 }
 
 .navbar-list-btn:hover {
-    border: 2px solid #AD4C4C;
+   background-color: #f0f0f0;
 }
 
 .navbar-list-cart {
     color: #AD4C4C;
 }
 
-.navbar-list-cart:hover {
-    color: #AD4C4C;
-    font-size: large;
-}
-
 .navbar-list-login {
     color: #696969;
-}
-.navbar-list-login:hover {
-    color: #696969;
-    font-size: large;
 }
 
 .food {

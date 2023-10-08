@@ -34,18 +34,8 @@ a:link {
     padding-right: 50px;
 }
 
-.navbar-list-cart:hover {
-    color: #AD4C4C;
-    font-size: large;
-}
-
 .navbar-list-cart {
     color: #AD4C4C;
-}
-
-.navbar-list-link:hover {
-    color: #696969;
-    font-size: large;
 }
 
 .navbar-list-link {
@@ -53,7 +43,7 @@ a:link {
 }
 
 .navbar-list-btn:hover {
-    border: 2px solid #AD4C4C;
+   background-color: #f0f0f0;
 }
 
 .navbar-list-btn {
@@ -63,6 +53,7 @@ a:link {
     font-weight: 500px;
     font-size: 16px;
     padding: 8px 15px;
+    transition: all ease-in-out 0.5s;
 }
 
 .food {
@@ -115,10 +106,23 @@ a:link {
     margin-top: 30px;
     font-weight: bold;
     color: #4E4D4D;
+    margin-bottom: 0px;
 }
 
-button:hover {
+.bnt-count-amount-item {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.bnt-count-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+button:focus {
     border: 2px solid #AD4C4C;
+    outline: none;
 }
 
 button {
@@ -128,21 +132,46 @@ button {
     border: 1px solid #AD4C4C;
     border-radius: 5px;
 }
+
 .sign {
     font-weight: bolder;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
 }
+
+.sign:hover {
+    transform: scale(1.09);
+}
+
 .sign- {
     font-weight: bolder;
     padding: 1px 8px;
     line-height: 1.4;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
 }
+
+.sign-:hover {
+    transform: scale(1.09);
+}
+
 .first-bar-item-sign {
     padding-left: 20px;
     padding-right: 20px;
     color: #AD4C4C;
 }
+
+.cost5000 {
+   margin-top: 60px;
+   display: flex;
+}
+
+.bi-currency-dollar {
+    color: #4E4D4D;
+}
+
 .first-bar-item-cost {
-    margin-top: 60px;
+    text-align: center;
     color: #4E4D4D;
     font-weight: bold;
 }
@@ -165,8 +194,17 @@ button {
     font-weight: bold;
     color: #4E4D4D;
 }
-.mob-cost {
+
+.mob-icon-cost {
     margin-top: 40px;
+    display: flex;
+}
+
+.total-price-wrapper {
+    display: flex;
+}
+
+.mob-cost {
     font-weight: bold;
     color: #4E4D4D;
 }
@@ -183,6 +221,13 @@ button {
     color: #4E4D4D;
     font-size: 30px;
 }
+
+.icon-currency {
+    margin-top: 42px;
+    color: #000000;
+    font-size: x-large;
+}
+
 .total-cost {
     font-weight: bolder;
     color: #000000;
@@ -193,7 +238,9 @@ button {
     justify-content: center;
 }
 .checkout-btn:hover {
-    border: 2px solid #000000;
+    background-color: #993939;
+    box-shadow: 3px 3px 3px 3px #dfdede;
+    transform: scale(1.01);
 }
 .checkout-btn {
     color: #ffffff;
@@ -201,6 +248,8 @@ button {
     background-color: #AD4C4C;
     width: 700px;
     height: 40px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
 }
 @media only screen and (max-width: 600px) {
     .main-content {

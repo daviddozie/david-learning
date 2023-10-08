@@ -34,18 +34,12 @@ a:link {
 padding-right: 50px;
 }
 
-.navbar-list-link:hover {
-    color: #696969;
-    font-size: large;
-}
-    
-
 .navbar-list-link {
     color: #696969;
 }
 
 .navbar-list-btn:hover {
-    border: 2px solid #AD4C4C;
+    background-color: #f0f0f0;
 }
 
 .navbar-list-btn {
@@ -55,6 +49,7 @@ padding-right: 50px;
     font-weight: 500px;
     font-size: 16px;
     padding: 8px 15px;
+    transition: all ease-in-out 0.5s;
 }
 
 .food {
@@ -122,6 +117,13 @@ padding-right: 50px;
     margin-top: 80px;
 }
 
+.error-block {
+    color: red;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 .number-container {
     margin-top: 30px;
 }
@@ -137,31 +139,30 @@ padding-right: 50px;
 }
 
 .number-bar-box {
-    border-right: 0px;
-    padding:10px 10px ;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-color: #C4C4C4;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: none;
     color: #696969;
     font-weight: bold;
 }  
 .number-bar-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
+
 .text-number-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .text-number-box-container {
     width: 100%;
+    position: relative;
 }
 
 .text-number-box {
-    padding: 10px 10px 12px;
+    padding: 11px 90px;
     border: 1px solid #C4C4C4;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-left: 0px;
+    border-radius: 5px;
     width: 100%;
     color: #696969;
     font-weight: bold;
@@ -191,7 +192,7 @@ padding-right: 50px;
     margin-top: 10px;
 }
 .payment-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 .card-number {
     margin-top: 50px;
@@ -206,7 +207,7 @@ padding-right: 50px;
     font-size: 20px;
 }
 .card-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 .card-box {
     padding: 10px 10px;
@@ -227,7 +228,7 @@ padding-right: 50px;
     font-size: 20px;
 }
 .expiry-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .expiry-box {
@@ -245,7 +246,7 @@ padding-right: 50px;
 }
 
 .cvc-box:hover {
-    border: 2px solid #AD4C4C;
+    box-shadow: 3px 3px 3px 3px #eeecec;
 }
 
 .cvc-box {
@@ -275,7 +276,9 @@ padding-right: 50px;
     padding-top: 50px;
 }
 .pay-btn:hover {
-    border: 2px solid #000000;
+    background-color: #962d2d;
+    box-shadow: 3px 3px 3px 3px #dfdede;
+    transform: scale(1.01);
 }
 .pay-btn {
     border: 1px solid #AD4C4C;
@@ -285,6 +288,8 @@ padding-right: 50px;
     font-weight: bold;
     width: 700px;
     height: 40px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
 }
 @media only screen and (max-width: 600px) {
     .main-content {
