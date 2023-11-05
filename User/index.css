@@ -1,0 +1,98 @@
+.success {
+    font-size: 15px;
+    font-weight: 700;
+    color: green;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 9px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.bell-wrapper {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-bell{
+    transition: all ease-in-out 0.5s;
+    color: black;
+    animation: shake 0.5s;
+    animation-delay: 2s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.note {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(224, 0, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -2%;
+}
+
+#num {
+    font-size: 10px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bell-num-wrapper {
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+.count-wrapper {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 150px 20px;
+}
+
+#countText {
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: goldenrod;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
