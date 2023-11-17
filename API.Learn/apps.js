@@ -21,11 +21,13 @@ fetch(api_url)
     .then((data) => {
         let slicedData = data.slice(0, 10);
         let wrapper = slicedData.map(item => {
-            return `<div class="item">
+            return `<div class="item" id="${item.id}">
         <h4>UserId:${item.userId}</h4>
         <h4>Id:${item.id}</h4>
         <h4>UserTitle:${item.title}</h4>
         <h4>UserBody:${item.completed}</h4>
+        <button type="button" onclick="del(${item.id})">del</button>
+        <button type="button" onclick="Edit(${item.id})">Edit</button>
     </div>`;
         })
         container.innerHTML = wrapper.join("");
@@ -55,11 +57,13 @@ button.addEventListener('click', () => {
     }).then((response) => {
         return response.json();
     }).then((result) => {
-        let wrapper = `<div class="item">
+        let wrapper = `<div class="item" id="${result.id}">
             <h4>Username:${result.name}</h4>
-            <h4>Id:${result.Id}</h4>
             <h4>UserAge:${result.age}</h4>
-            <h4>UserBody:${result.body}</h4>
+            <h4>UserId:${result.Id}</h4>
+            <h4>Usermessage:${result.body}</h4>
+            <button type="button" onclick="del(${result.id})">del</button>
+            <button type="button" onclick="Edit(${result.id})">Edit</button>
         </div>`;
         
         container.insertAdjacentHTML("afterbegin", wrapper);
@@ -69,3 +73,18 @@ button.addEventListener('click', () => {
     userId.value = "";
     userBody.value = "";
 });
+
+function del(id) {
+    let apiUrl = `https://jsonplaceholder.typicode.com/posts/${id}`;
+
+    fetch(apiUrl, {
+        method: "DELETE",
+    }).then((response) => {
+
+        let itemToRemove = document.getElementById(`${id}`);
+
+        if (itemToRemove) {
+            itemToRemove.remove();
+        }
+    })
+}
